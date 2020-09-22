@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-
+import ReactDOM from 'react-dom';// 引入reactDOM 用于渲染js编写的组件
+import './index.css';// 引入根样式
+import App from './App';// 引入根组件
+import * as serviceWorker from './serviceWorker';// 引入本地服务
+import 'antd/dist/antd.css';// 引入antd UI组件
 ReactDOM.render(
   <React.StrictMode>
     <App />

@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## 安装
+
+```shell
+npm install
+```
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -66,3 +74,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+# 设置淘宝镜像
+
+>npm config set registry http://registry.npm.taobao.org/
+
+还原
+
+>npm config set registry https://registry.npmjs.org/
